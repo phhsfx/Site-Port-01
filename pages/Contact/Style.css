@@ -1,0 +1,89 @@
+body {
+    background-image: url(imagesContact/813087.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: center;      
+    height: 40vh;        
+}
+
+h1 {
+    color: white;
+    font-size: 43px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+p {
+    color: white;
+    margin-top: 0;
+    font-weight: bold; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 80px;
+}
+
+.form-white {
+    flex: 1;
+    width: 15%;          
+    height: 300px;   
+    padding: 80px;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);  
+    background-color: rgba(0, 0, 0, 0.565);
+    margin-bottom: 50px;   
+}
+
+.form-black {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7); /* Parte preta com transparência */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Bordas com transparência */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo transparente */
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1020px) {
+    h1 {
+        font-size: 30px;
+    }
+}
